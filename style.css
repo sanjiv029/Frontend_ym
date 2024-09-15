@@ -102,3 +102,77 @@ p {
     color: rgb(156, 140, 118);
     text-align: center;
   }
+
+
+  .fa {
+    margin-right: 10px;
+    color: green;
+
+  }
+  .card-body p {
+    margin-left: 60px;
+    text-align: justify;
+  }
+  
+  .card-body h5 {
+    margin-top: 0;
+    font-size: 1.2rem;
+  }
+  
+  .custom-container1 {
+    margin: 0 auto; /* Centers the content */
+    width: calc(100% - 400px); /* Adds a total margin of 300px on left and right */
+  }
+  .custom-container2{
+    margin: 50px auto; 
+    background-color: rgb(227, 224, 224);
+    justify-content: center;
+    align-items: center;
+    width: 100vw; 
+    height: 100vh; 
+  }
+  .content-bot {
+    padding-top: 100px;
+    margin: 50px auto; 
+    width: calc(100% - 600px);
+    text-align: center;
+  }
+.content-bot h6{
+    font-size: 2rem;
+    color: rgb(127, 163, 255);
+}
+.content-bot p {
+    font-size: 1rem;
+    color: rgb(86, 86, 86);
+    padding-bottom: 50px;
+}
+.card {
+    height: 100%; /* Ensures the card takes full height */
+}
+
+.img-adjust {
+    height: 200px;
+    object-fit: cover; 
+}
+
+.card-body {
+    text-align: center; /* Optional: centers the text inside the card */
+}
+.card h5 {
+        font-size: 1.2rem;
+        color: rgb(100, 101, 104);
+}
+.card p {
+    font-size: 0.6rem;
+}
+.carousel-inner .carousel-item {
+    display: flex;
+    justify-content: space-between;
+}
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+.carousel-inner {
+    padding: 20px;
+}
