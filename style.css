@@ -14,19 +14,14 @@
     width: 100%;
   }
   
-
-.top {
-    background-color: #e3f2fd;
-    padding-top: 5px;
-}
 .top-header{
     display: flex;
-    margin-left: 265px;
+    margin-left: 280px;
 }
-.top-right {
-    margin-left: 600px;
-   align-items: right;
+.top-right{
+  margin-right: 130px;
 }
+
 p {
     padding-right: 30px;
 }
@@ -53,7 +48,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image:url(/R.jpg);
+    background-image:url(/R\ \(1\).jpg);
     background-size: cover;
   }
   
@@ -69,22 +64,17 @@ p {
     text-align: center;
   }
   .content p {
-    color: rgb(217, 230, 241);
+    color: rgb(85, 92, 99);
     font-size: 1rem;
     text-align: center;
   }
   
   .btn-1{
-    color: rgb(12, 238, 103);
-    width: 250px;
-    height: 50px;
-    border: 1px solid rgb(8, 8, 8); 
     font-size: 1rem;
     cursor: pointer;
     margin-top: 50px;
-    margin-left: 200px;
-    text-align: center;
   }
+
 
   .feature{
     margin-top: 100px;
@@ -129,7 +119,7 @@ p {
     justify-content: center;
     align-items: center;
     width: 100vw; 
-    height: 100vh; 
+    height: 120vh; 
   }
   .content-bot {
     padding-top: 100px;
@@ -147,7 +137,7 @@ p {
     padding-bottom: 50px;
 }
 .card {
-    height: 100%; /* Ensures the card takes full height */
+    height: 100%; 
 }
 
 .img-adjust {
@@ -165,14 +155,28 @@ p {
 .card p {
     font-size: 0.6rem;
 }
-.carousel-inner .carousel-item {
-    display: flex;
-    justify-content: space-between;
+ .image-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 50px;
 }
-.carousel-item img {
-    width: 100%;
-    height: auto;
+.image-container img {
+  width: 100%;
+  margin-bottom: 10px; 
+  padding: 20px;
 }
-.carousel-inner {
-    padding: 20px;
+.btn-2{
+  font-size: 0.5rem;
+  cursor: pointer;
+  margin-top: 50px;
+}
+.bottom{
+  margin: 50px auto; 
+  justify-content: center;
+  align-items: center; 
+  padding-top: 100px;
+  margin: 50px auto; 
+  width: calc(100% - 600px);
+  text-align: center;
 }

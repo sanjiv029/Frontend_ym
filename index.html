@@ -7,14 +7,15 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-    <header>
-        <nav class="top"> 
+    <header class="bg bg-light" >
+        <nav class="top pt-2 mx-lg-5"> 
             <div class="top-header">
-             <p><i class="fa-solid fa-envelope"></i>   info@reer.com</p> 
-             <p><i class="fa-solid fa-mobile-screen-button"></i>  +977 92843783</p> 
-             <div class="top-right">
+              <a href="mailto:info@reer.com" class="text-dark text-decoration-none px-2"> <i class="fa-solid fa-envelope"></i>  info@reer.com</a>
+              <a href="tel: +977 9284378334" class="text-dark text-decoration-none px-2"> <i class="fa-solid fa-mobile-screen-button"></i> +977 9284378334</a>
+             <div class="top-right text-sm-end position-absolute top-1 end-0 ">
                 <i class="fa-brands fa-facebook-f"></i>
                 <i class="fa-brands fa-twitter"></i>
                 <i class="fa-brands fa-spotify"></i>
@@ -22,15 +23,17 @@
                 <i class="fa-brands fa-pinterest-p"></i>
             </div>
             </div>  
-
         </nav>       
-    <nav class="navbar navbar-expand-lg" style="background-color: #ffffff;">
+    <nav class="navbar navbar-expand-lg bg bg-white">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <li class="nav-item text-lg-start">
+              <a class="nav-link active" aria-current="page" href="#">.REEN</a>
+            </li>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -56,7 +59,7 @@
               
             </ul>
             <form class="d-flex" role="search">
-              <input class="form-control" type="search">
+              <input class="form-control " type="search">
               <button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
           </div>
@@ -64,10 +67,10 @@
       </nav>
     </header>
     <div class="container-box">
-        <div class="content">
+        <div class="content text-center">
             <h1> MADE FOR DESIGNERS</h1>
             <p>Create your online portfolio in minutes with the professionally and lovingly designed REEN website template. Customize your site with versatile and easy to use features.</p>
-            <button type="button" class="btn-1 btn btn-success">Get Started Now</button>
+            <button type="button" class="btn-1 btn btn-success btn-lg text-center">Get Started Now</button>
         </div>
     </div>
 
@@ -75,10 +78,10 @@
         <h1>Beautiful. Clean. Responsive. </h1>
         <p>REEN is a high-quality solution for those who want a beautiful website in no time it's fully responsive and will adapt itself to any mobile device, iPad, iPhone, Android, it doesn't matter. Your content will always looks its absolute best.</p>
     </div>
-    <div class="custom-container1">
+    <div class="custom-container1 text-center">
     <div class="row">
         <div class="col-sm-4 mb-3 mb-sm-0">
-          <div class="card">
+          <div class="card border border-0">
             <div class="card-body"> 
               <h5 class="card-title">  <i class="fa fa-heart fa-3x"></i>Passion</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum unde tempore, voluptas aut enim consectetur quam rerum cum esse, voluptatum odio soluta iste mollitia quo! Fugiat beatae autem sunt? Autem?</p>
@@ -86,7 +89,7 @@
           </div>
         </div>
         <div class="col-sm-4">
-          <div class="card">
+          <div class="card border border-0">
             <div class="card-body">
               <h5 class="card-title"> <i class="fa fa-lightbulb fa-3x"></i> Creativity</h5>
               <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi repellendus aliquam, harum eum culpa, ex adipisci tempore similique molestias deleniti magni amet temporibus rerum eos eligendi quia aut ratione. Totam.</p>
@@ -94,7 +97,7 @@
           </div>
         </div>
         <div class="col-sm-4 mb-3 mb-sm-0">
-            <div class="card">
+            <div class="card border border-0">
               <div class="card-body">
                 <h5 class="card-title"> <i class="fa fa-star fa-3x"></i>Quality</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ad at a molestiae qui, nemo excepturi quasi ipsam distinctio aliquam saepe explicabo odit provident itaque sequi officia nesciunt repudiandae consequuntur!</p>
@@ -127,19 +130,7 @@
           </div>
         </div>
        </div>
-       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <!-- Indicators -->
-            <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-
-             </div>
-    
-         <!-- Carousel items (images in sets of 4) -->
-         <div class="carousel-inner">
-            <!-- First set of images -->
-            <div class="carousel-item active">
+        <div class="image-container">
                 <div class="col-md-3">
                     <img src="/OIP (1).jpg" alt="Image 1" class="img-adjust">
                 </div>
@@ -153,36 +144,79 @@
                     <img src="/R (1).jpg" alt="Image 4" class="img-adjust">
                 </div>
             </div>
-    
-            <!-- Second set of images -->
-            <div class="carousel-item">
-                <div class="col-md-3">
-                    <img src="/OIP (1).jpg" alt="Image 1" class="img-adjust">
-                </div>
-                <div class="col-md-3">
-                    <img src="/OIP.jpg" alt="Image 2" class="img-adjust">
-                </div>
-                <div class="col-md-3">
-                    <img src="/R (1).jpg" alt="Image 3" class="img-adjust">
-                </div>
-                <div class="col-md-3">
-                    <img src="/R (1).jpg" alt="Image 4" class="img-adjust">
-                </div>
-            </div>
-        </div>
-    
-        <!-- Carousel controls -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
     </div>
 </div>
-   
+<div class="bottom">
+  <h2>Want to work with us?</h2>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque assumenda voluptates qui dicta ullam rerum reprehenderit earum accusantium suscipit sequi blanditiis minus consequatur commodi fugit quidem iure, consectetur nulla voluptate.
+  </p>
+  <button type="button" class="btn-2 btn btn-success btn-lg">Get In Touch</button>
+</div>
+
+<footer class="bg-black text-light-emphasis py-5">
+  <div class="container">
+      <div class="row">
+          <!-- Who We Are -->
+          <div class="col-md-3 mb-4 mb-md-0">
+              <h2 class="h6 font-weight-bold text-light">WHO WE ARE</h2>
+              <h1 class="display-4 font-weight-bold text-light">REEN.</h1>
+              <p class="custom-paragraph mt-2">
+                  Magnis modis pace volatortait andigen dapibus quate repon qui out labor. Laecenque eictipenum quine sit amet rest non estblusis maos el dem tumquam.
+              </p>
+              <a href="#" class="text-primary mt-2 d-block">More about us &rarr;</a>
+          </div>
+          <!-- Latest Works -->
+          <div class="col-md-3 mb-4 mb-md-0">
+              <h2 class="h6 font-weight-bold text-light">LATEST WORKS</h2>
+              <div class="row g-2 mt-4">
+                  <div class="col-6">
+                      <img class="img-fluid rounded" src="/OIP (1).jpg" alt="Latest Work 1">
+                  </div>
+                  <div class="col-6">
+                      <img class="img-fluid rounded" src="/OIP.jpg" alt="Latest Work 2">
+                  </div>
+                  <div class="col-6 mt-2">
+                      <img class="img-fluid rounded" src="OIP (1).jpg" alt="Latest Work 3">
+                  </div>
+                  <div class="col-6 mt-2">
+                    <img class="img-fluid rounded" src="/OIP.jpg" alt="Latest Work 4">
+                            </div>
+                        </div>
+                    </div>
+           <!-- Get In Touch -->
+            <div class="col-md-3 mb-4 mb-md-0">
+            <h2 class="h6 font-weight-bold text-light">GET IN TOUCH</h2>
+             <p class="custom-paragraph mt-4">
+              Dolerit qui commodi platemg dolupta oreperum etibus sumens in conent.
+          </p>
+           <p class="custom-paragraph mt-2">
+          <i class="fas fa-map-marker-alt mr-2"></i>Street, City, State 24313.
+           </p>
+          <p class="custom-paragraph mt-2">
+        <i class="fas fa-phone mr-2"></i>+00 (124) 456 78 90
+    </p>
+    <p class="custom-paragraph mt-2">
+        <i class="fas fa-envelope mr-2"></i>info@reen.com
+    </p>
+</div>
+<div class="col-md-3">
+    <h2 class="h6 font-weight-bold text-light">FREE UPDATES</h2>
+    <p class="custom-paragraph mt-4">
+        Consectetur iure posuere volor remped modis et volor acabrar incin resto explicabo.
+    </p>
+    <form class="mt-2 d-flex">
+        <input type="email" placeholder="Enter your email address" class="form-control me-2" required>
+        <button type="submit" class="btn btn-primary">SUBSCRIBE</button>
+    </form>
+</div>
+</div>
+<div class="text-center mt-4">
+<p>&copy; 2014 REEN. All rights reserved.</p>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
